@@ -1,2 +1,4 @@
 # capstone
-My final project during my time at NSS.
+This first step was exploring the National Park Service API. I was able to find a list of activities for the National Park Service. Then I was able to look up each activity seperately and find a list of the parks in which you could do that activity. Then I wrote a for loop in order to retrieve this information and make a dataframe that included each national park and which activities were available there. This will allow a potential visitor to pick a park based on the activities they want to do on their trip.
+
+The next step I wanted to research was how many visitors go to each park per year for the past 20 years in order to see trends of which parks are more popular. This would allow a visitor to decide if they don't mind visting the heavily trafficked or identify a less familiar park if they want to find a place less crowded. I was able to find this information in an excel file. I pulled that file into Python and then had to do a lot of cleaning on it. Then I converted it into a csv file.
