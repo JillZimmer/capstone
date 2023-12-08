@@ -1,0 +1,1366 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0909.1159                               -->
+<workbook original-version='18.1' source-build='2023.2.2 (20232.23.0909.1159)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='activites_by_park_cleaner' inline='true' name='federated.0tgu8zs0maxlpv1951n500819mqa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='activites_by_park_cleaner' name='textscan.14skxd11xdxkn015nwn861mzf0et'>
+            <connection class='textscan' directory='C:/Users/jillz/Documents/NSS/Python/projects/capstone/data' filename='activites_by_park_cleaner.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.14skxd11xdxkn015nwn861mzf0et' name='activites_by_park_cleaner.csv' table='[activites_by_park_cleaner#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='States' ordinal='0' />
+            <column datatype='string' name='Park Code' ordinal='1' />
+            <column datatype='string' name='Designation' ordinal='2' />
+            <column datatype='string' name='Full Name' ordinal='3' />
+            <column datatype='string' name='URL' ordinal='4' />
+            <column datatype='string' name='Name' ordinal='5' />
+            <column datatype='string' name='Region' ordinal='6' />
+            <column datatype='boolean' name='Arts and Culture' ordinal='7' />
+            <column datatype='boolean' name='Astronomy' ordinal='8' />
+            <column datatype='boolean' name='Auto and ATV' ordinal='9' />
+            <column datatype='boolean' name='Biking' ordinal='10' />
+            <column datatype='boolean' name='Boating' ordinal='11' />
+            <column datatype='boolean' name='Camping' ordinal='12' />
+            <column datatype='boolean' name='Canyoneering' ordinal='13' />
+            <column datatype='boolean' name='Caving' ordinal='14' />
+            <column datatype='boolean' name='Climbing' ordinal='15' />
+            <column datatype='boolean' name='Compass and GPS' ordinal='16' />
+            <column datatype='boolean' name='Dog Sledding' ordinal='17' />
+            <column datatype='boolean' name='Fishing' ordinal='18' />
+            <column datatype='boolean' name='Flying' ordinal='19' />
+            <column datatype='boolean' name='Food' ordinal='20' />
+            <column datatype='boolean' name='Golfing' ordinal='21' />
+            <column datatype='boolean' name='Guided Tours' ordinal='22' />
+            <column datatype='boolean' name='Hands-On' ordinal='23' />
+            <column datatype='boolean' name='Hiking' ordinal='24' />
+            <column datatype='boolean' name='Horse Trekking' ordinal='25' />
+            <column datatype='boolean' name='Hunting and Gathering' ordinal='26' />
+            <column datatype='boolean' name='Ice Skating' ordinal='27' />
+            <column datatype='boolean' name='Junior Ranger Program' ordinal='28' />
+            <column datatype='boolean' name='Living History' ordinal='29' />
+            <column datatype='boolean' name='Museum Exhibits' ordinal='30' />
+            <column datatype='boolean' name='Paddling' ordinal='31' />
+            <column datatype='boolean' name='Park Film' ordinal='32' />
+            <column datatype='boolean' name='Playground' ordinal='33' />
+            <column datatype='boolean' name='SCUBA Diving' ordinal='34' />
+            <column datatype='boolean' name='Shopping' ordinal='35' />
+            <column datatype='boolean' name='Skiing' ordinal='36' />
+            <column datatype='boolean' name='Snorkeling' ordinal='37' />
+            <column datatype='boolean' name='Snow Play' ordinal='38' />
+            <column datatype='boolean' name='Snowmobiling' ordinal='39' />
+            <column datatype='boolean' name='Snowshoeing' ordinal='40' />
+            <column datatype='boolean' name='Surfing' ordinal='41' />
+            <column datatype='boolean' name='Swimming' ordinal='42' />
+            <column datatype='boolean' name='Team Sports' ordinal='43' />
+            <column datatype='boolean' name='Tubing' ordinal='44' />
+            <column datatype='boolean' name='Water Skiing' ordinal='45' />
+            <column datatype='boolean' name='Wildlife Watching' ordinal='46' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.14skxd11xdxkn015nwn861mzf0et' name='activites_by_park_cleaner.csv' table='[activites_by_park_cleaner#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='States' ordinal='0' />
+            <column datatype='string' name='Park Code' ordinal='1' />
+            <column datatype='string' name='Designation' ordinal='2' />
+            <column datatype='string' name='Full Name' ordinal='3' />
+            <column datatype='string' name='URL' ordinal='4' />
+            <column datatype='string' name='Name' ordinal='5' />
+            <column datatype='string' name='Region' ordinal='6' />
+            <column datatype='boolean' name='Arts and Culture' ordinal='7' />
+            <column datatype='boolean' name='Astronomy' ordinal='8' />
+            <column datatype='boolean' name='Auto and ATV' ordinal='9' />
+            <column datatype='boolean' name='Biking' ordinal='10' />
+            <column datatype='boolean' name='Boating' ordinal='11' />
+            <column datatype='boolean' name='Camping' ordinal='12' />
+            <column datatype='boolean' name='Canyoneering' ordinal='13' />
+            <column datatype='boolean' name='Caving' ordinal='14' />
+            <column datatype='boolean' name='Climbing' ordinal='15' />
+            <column datatype='boolean' name='Compass and GPS' ordinal='16' />
+            <column datatype='boolean' name='Dog Sledding' ordinal='17' />
+            <column datatype='boolean' name='Fishing' ordinal='18' />
+            <column datatype='boolean' name='Flying' ordinal='19' />
+            <column datatype='boolean' name='Food' ordinal='20' />
+            <column datatype='boolean' name='Golfing' ordinal='21' />
+            <column datatype='boolean' name='Guided Tours' ordinal='22' />
+            <column datatype='boolean' name='Hands-On' ordinal='23' />
+            <column datatype='boolean' name='Hiking' ordinal='24' />
+            <column datatype='boolean' name='Horse Trekking' ordinal='25' />
+            <column datatype='boolean' name='Hunting and Gathering' ordinal='26' />
+            <column datatype='boolean' name='Ice Skating' ordinal='27' />
+            <column datatype='boolean' name='Junior Ranger Program' ordinal='28' />
+            <column datatype='boolean' name='Living History' ordinal='29' />
+            <column datatype='boolean' name='Museum Exhibits' ordinal='30' />
+            <column datatype='boolean' name='Paddling' ordinal='31' />
+            <column datatype='boolean' name='Park Film' ordinal='32' />
+            <column datatype='boolean' name='Playground' ordinal='33' />
+            <column datatype='boolean' name='SCUBA Diving' ordinal='34' />
+            <column datatype='boolean' name='Shopping' ordinal='35' />
+            <column datatype='boolean' name='Skiing' ordinal='36' />
+            <column datatype='boolean' name='Snorkeling' ordinal='37' />
+            <column datatype='boolean' name='Snow Play' ordinal='38' />
+            <column datatype='boolean' name='Snowmobiling' ordinal='39' />
+            <column datatype='boolean' name='Snowshoeing' ordinal='40' />
+            <column datatype='boolean' name='Surfing' ordinal='41' />
+            <column datatype='boolean' name='Swimming' ordinal='42' />
+            <column datatype='boolean' name='Team Sports' ordinal='43' />
+            <column datatype='boolean' name='Tubing' ordinal='44' />
+            <column datatype='boolean' name='Water Skiing' ordinal='45' />
+            <column datatype='boolean' name='Wildlife Watching' ordinal='46' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>States</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[States]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>States</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Park Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Park Code]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Park Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Designation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Designation]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Designation</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Full Name]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Full Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>URL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[URL]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>URL</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arts and Culture</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Arts and Culture]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Arts and Culture</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Astronomy</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Astronomy]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Astronomy</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Auto and ATV</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Auto and ATV]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Auto and ATV</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Biking</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Biking]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Biking</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Boating</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Boating]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Boating</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Camping</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Camping]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Camping</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Canyoneering</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Canyoneering]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Canyoneering</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Caving</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Caving]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Caving</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Climbing</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Climbing]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Climbing</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Compass and GPS</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Compass and GPS]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Compass and GPS</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dog Sledding</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Dog Sledding]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Dog Sledding</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fishing</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Fishing]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Fishing</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flying</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Flying]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Flying</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Food</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Food]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Food</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Golfing</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Golfing]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Golfing</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Guided Tours</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Guided Tours]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Guided Tours</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hands-On</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Hands-On]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Hands-On</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hiking</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Hiking]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Hiking</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Horse Trekking</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Horse Trekking]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Horse Trekking</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hunting and Gathering</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Hunting and Gathering]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Hunting and Gathering</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ice Skating</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Ice Skating]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Ice Skating</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Junior Ranger Program</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Junior Ranger Program]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Junior Ranger Program</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Living History</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Living History]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Living History</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Museum Exhibits</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Museum Exhibits]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Museum Exhibits</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Paddling</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Paddling]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Paddling</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Park Film</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Park Film]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Park Film</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Playground</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Playground]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Playground</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SCUBA Diving</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[SCUBA Diving]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>SCUBA Diving</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shopping</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Shopping]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Shopping</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Skiing</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Skiing]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Skiing</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snorkeling</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Snorkeling]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Snorkeling</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snow Play</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Snow Play]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Snow Play</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snowmobiling</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Snowmobiling]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Snowmobiling</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snowshoeing</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Snowshoeing]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Snowshoeing</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Surfing</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Surfing]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Surfing</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Swimming</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Swimming]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Swimming</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team Sports</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Team Sports]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Team Sports</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tubing</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Tubing]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Tubing</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Water Skiing</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Water Skiing]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Water Skiing</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wildlife Watching</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Wildlife Watching]</local-name>
+            <parent-name>[activites_by_park_cleaner.csv]</parent-name>
+            <remote-alias>Wildlife Watching</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calculation1' datatype='boolean' name='[Calculation_7730428791386664964]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Swimming]= True' />
+      </column>
+      <column caption='Calculation2' datatype='boolean' name='[Calculation_7730428791390568453]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Biking] = True OR [Hiking] = True OR [Camping] = True&#13;&#10;THEN True&#13;&#10;ELSE False&#13;&#10;END' />
+      </column>
+      <column caption='Calculation3' datatype='boolean' name='[Calculation_7730428791398707206]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Auto and ATV] = True OR [Boating] = True OR [Caving] = True&#13;&#10;THEN True&#13;&#10;ELSE False&#13;&#10;END' />
+      </column>
+      <column caption='Name (copy)' datatype='string' name='[Name (copy)_7730428791382700032]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Name]' />
+      </column>
+      <column datatype='string' name='[Region]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='States (copy)' datatype='string' name='[States (copy)_7730428791382822913]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <calculation class='tableau' formula='[States]' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='activites_by_park_cleaner.csv' datatype='table' name='[__tableau_internal_object_id__].[activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC]' role='measure' type='quantitative' />
+      <_.fcp.SchemaViewerObjectModel.false...folder name='Art' role='dimensions'>
+        <folder-item name='[Arts and Culture]' type='field' />
+        <folder-item name='[Astronomy]' type='field' />
+        <folder-item name='[Museum Exhibits]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='Outdoor' role='dimensions'>
+        <folder-item name='[Auto and ATV]' type='field' />
+        <folder-item name='[Biking]' type='field' />
+        <folder-item name='[Camping]' type='field' />
+        <folder-item name='[Climbing]' type='field' />
+        <folder-item name='[Compass and GPS]' type='field' />
+        <folder-item name='[Hiking]' type='field' />
+        <folder-item name='[Horse Trekking]' type='field' />
+        <folder-item name='[Hunting and Gathering]' type='field' />
+        <folder-item name='[Paddling]' type='field' />
+        <folder-item name='[Playground]' type='field' />
+        <folder-item name='[Team Sports]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='Winter Activities' role='dimensions'>
+        <folder-item name='[Dog Sledding]' type='field' />
+        <folder-item name='[Ice Skating]' type='field' />
+        <folder-item name='[Skiing]' type='field' />
+        <folder-item name='[Snow Play]' type='field' />
+        <folder-item name='[Snowmobiling]' type='field' />
+        <folder-item name='[Snowshoeing]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.true...folders-common>
+        <folder name='Art'>
+          <folder-item name='[Arts and Culture]' type='field' />
+          <folder-item name='[Astronomy]' type='field' />
+          <folder-item name='[Museum Exhibits]' type='field' />
+        </folder>
+        <folder name='Outdoor'>
+          <folder-item name='[Auto and ATV]' type='field' />
+          <folder-item name='[Biking]' type='field' />
+          <folder-item name='[Camping]' type='field' />
+          <folder-item name='[Climbing]' type='field' />
+          <folder-item name='[Compass and GPS]' type='field' />
+          <folder-item name='[Hiking]' type='field' />
+          <folder-item name='[Horse Trekking]' type='field' />
+          <folder-item name='[Hunting and Gathering]' type='field' />
+          <folder-item name='[Paddling]' type='field' />
+          <folder-item name='[Playground]' type='field' />
+          <folder-item name='[Team Sports]' type='field' />
+        </folder>
+        <folder name='Winter Activities'>
+          <folder-item name='[Dog Sledding]' type='field' />
+          <folder-item name='[Ice Skating]' type='field' />
+          <folder-item name='[Skiing]' type='field' />
+          <folder-item name='[Snow Play]' type='field' />
+          <folder-item name='[Snowmobiling]' type='field' />
+          <folder-item name='[Snowshoeing]' type='field' />
+        </folder>
+      </_.fcp.SchemaViewerObjectModel.true...folders-common>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='States' />
+        <field-sort-custom-order field='States (copy)_7730428791382822913' />
+        <field-sort-custom-order field='Park Code' />
+        <field-sort-custom-order field='Designation' />
+        <field-sort-custom-order field='Full Name' />
+        <field-sort-custom-order field='URL' />
+        <field-sort-custom-order field='Name' />
+        <field-sort-custom-order field='Name (copy)_7730428791382700032' />
+        <field-sort-custom-order field='Region' />
+        <field-sort-custom-order field='Arts and Culture' />
+        <field-sort-custom-order field='Astronomy' />
+        <field-sort-custom-order field='Auto and ATV' />
+        <field-sort-custom-order field='Biking' />
+        <field-sort-custom-order field='Boating' />
+        <field-sort-custom-order field='Camping' />
+        <field-sort-custom-order field='Canyoneering' />
+        <field-sort-custom-order field='Caving' />
+        <field-sort-custom-order field='Climbing' />
+        <field-sort-custom-order field='Compass and GPS' />
+        <field-sort-custom-order field='Dog Sledding' />
+        <field-sort-custom-order field='Fishing' />
+        <field-sort-custom-order field='Flying' />
+        <field-sort-custom-order field='Food' />
+        <field-sort-custom-order field='Golfing' />
+        <field-sort-custom-order field='Guided Tours' />
+        <field-sort-custom-order field='Hands-On' />
+        <field-sort-custom-order field='Hiking' />
+        <field-sort-custom-order field='Horse Trekking' />
+        <field-sort-custom-order field='Hunting and Gathering' />
+        <field-sort-custom-order field='Ice Skating' />
+        <field-sort-custom-order field='Junior Ranger Program' />
+        <field-sort-custom-order field='Living History' />
+        <field-sort-custom-order field='Museum Exhibits' />
+        <field-sort-custom-order field='Paddling' />
+        <field-sort-custom-order field='Park Film' />
+        <field-sort-custom-order field='Playground' />
+        <field-sort-custom-order field='SCUBA Diving' />
+        <field-sort-custom-order field='Shopping' />
+        <field-sort-custom-order field='Skiing' />
+        <field-sort-custom-order field='Snorkeling' />
+        <field-sort-custom-order field='Snow Play' />
+        <field-sort-custom-order field='Snowmobiling' />
+        <field-sort-custom-order field='Snowshoeing' />
+        <field-sort-custom-order field='Surfing' />
+        <field-sort-custom-order field='Swimming' />
+        <field-sort-custom-order field='Team Sports' />
+        <field-sort-custom-order field='Tubing' />
+        <field-sort-custom-order field='Water Skiing' />
+        <field-sort-custom-order field='Wildlife Watching' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='activites_by_park_cleaner.csv' id='activites_by_park_cleaner.csv_5E642984F4A748CC8B741E512157AAFC'>
+            <properties context=''>
+              <relation connection='textscan.14skxd11xdxkn015nwn861mzf0et' name='activites_by_park_cleaner.csv' table='[activites_by_park_cleaner#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='States' ordinal='0' />
+                  <column datatype='string' name='Park Code' ordinal='1' />
+                  <column datatype='string' name='Designation' ordinal='2' />
+                  <column datatype='string' name='Full Name' ordinal='3' />
+                  <column datatype='string' name='URL' ordinal='4' />
+                  <column datatype='string' name='Name' ordinal='5' />
+                  <column datatype='string' name='Region' ordinal='6' />
+                  <column datatype='boolean' name='Arts and Culture' ordinal='7' />
+                  <column datatype='boolean' name='Astronomy' ordinal='8' />
+                  <column datatype='boolean' name='Auto and ATV' ordinal='9' />
+                  <column datatype='boolean' name='Biking' ordinal='10' />
+                  <column datatype='boolean' name='Boating' ordinal='11' />
+                  <column datatype='boolean' name='Camping' ordinal='12' />
+                  <column datatype='boolean' name='Canyoneering' ordinal='13' />
+                  <column datatype='boolean' name='Caving' ordinal='14' />
+                  <column datatype='boolean' name='Climbing' ordinal='15' />
+                  <column datatype='boolean' name='Compass and GPS' ordinal='16' />
+                  <column datatype='boolean' name='Dog Sledding' ordinal='17' />
+                  <column datatype='boolean' name='Fishing' ordinal='18' />
+                  <column datatype='boolean' name='Flying' ordinal='19' />
+                  <column datatype='boolean' name='Food' ordinal='20' />
+                  <column datatype='boolean' name='Golfing' ordinal='21' />
+                  <column datatype='boolean' name='Guided Tours' ordinal='22' />
+                  <column datatype='boolean' name='Hands-On' ordinal='23' />
+                  <column datatype='boolean' name='Hiking' ordinal='24' />
+                  <column datatype='boolean' name='Horse Trekking' ordinal='25' />
+                  <column datatype='boolean' name='Hunting and Gathering' ordinal='26' />
+                  <column datatype='boolean' name='Ice Skating' ordinal='27' />
+                  <column datatype='boolean' name='Junior Ranger Program' ordinal='28' />
+                  <column datatype='boolean' name='Living History' ordinal='29' />
+                  <column datatype='boolean' name='Museum Exhibits' ordinal='30' />
+                  <column datatype='boolean' name='Paddling' ordinal='31' />
+                  <column datatype='boolean' name='Park Film' ordinal='32' />
+                  <column datatype='boolean' name='Playground' ordinal='33' />
+                  <column datatype='boolean' name='SCUBA Diving' ordinal='34' />
+                  <column datatype='boolean' name='Shopping' ordinal='35' />
+                  <column datatype='boolean' name='Skiing' ordinal='36' />
+                  <column datatype='boolean' name='Snorkeling' ordinal='37' />
+                  <column datatype='boolean' name='Snow Play' ordinal='38' />
+                  <column datatype='boolean' name='Snowmobiling' ordinal='39' />
+                  <column datatype='boolean' name='Snowshoeing' ordinal='40' />
+                  <column datatype='boolean' name='Surfing' ordinal='41' />
+                  <column datatype='boolean' name='Swimming' ordinal='42' />
+                  <column datatype='boolean' name='Team Sports' ordinal='43' />
+                  <column datatype='boolean' name='Tubing' ordinal='44' />
+                  <column datatype='boolean' name='Water Skiing' ordinal='45' />
+                  <column datatype='boolean' name='Wildlife Watching' ordinal='46' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='activites_by_park_cleaner' name='federated.0tgu8zs0maxlpv1951n500819mqa' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0tgu8zs0maxlpv1951n500819mqa'>
+            <column datatype='boolean' name='[Biking]' role='dimension' type='nominal' />
+            <column caption='Calculation2' datatype='boolean' name='[Calculation_7730428791390568453]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Biking] = True OR [Hiking] = True OR [Camping] = True&#13;&#10;THEN True&#13;&#10;ELSE False&#13;&#10;END' />
+            </column>
+            <column datatype='boolean' name='[Camping]' role='dimension' type='nominal' />
+            <column datatype='boolean' name='[Hiking]' role='dimension' type='nominal' />
+            <column caption='States (copy)' datatype='string' name='[States (copy)_7730428791382822913]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <calculation class='tableau' formula='[States]' />
+            </column>
+            <column datatype='string' name='[States]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_7730428791390568453]' derivation='None' name='[none:Calculation_7730428791390568453:nk]' pivot='key' type='nominal' />
+            <column-instance column='[States (copy)_7730428791382822913]' derivation='None' name='[none:States (copy)_7730428791382822913:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Calculation_7730428791390568453:nk]'>
+            <groupfilter function='member' level='[none:Calculation_7730428791390568453:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Calculation_7730428791390568453:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0tgu8zs0maxlpv1951n500819mqa].[Longitude (generated)]' field-type='quantitative' max='-6099693.0250119194' min='-16044184.25450008' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0tgu8zs0maxlpv1951n500819mqa].[Latitude (generated)]' field-type='quantitative' max='7913799.5018171705' min='2293987.7671509404' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0tgu8zs0maxlpv1951n500819mqa].[none:States (copy)_7730428791382822913:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tgu8zs0maxlpv1951n500819mqa].[Latitude (generated)]</rows>
+        <cols>[federated.0tgu8zs0maxlpv1951n500819mqa].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{86EEC775-E1BC-4503-9472-E764F8C08921}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Calculation_7730428791390568453:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[Parameters].[Parameter 2]</field>
+            <field>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Boating:nk]</field>
+            <field>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Calculation_7730428791390568453:nk]</field>
+            <field>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Dog Sledding:nk]</field>
+            <field>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Hiking:nk]</field>
+            <field>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Name:nk]</field>
+            <field>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Region:nk]</field>
+            <field>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Snorkeling:nk]</field>
+            <field>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Snowmobiling:nk]</field>
+            <field>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:States (copy)_7730428791382822913:nk]</field>
+            <field>[federated.0tgu8zs0maxlpv1951n500819mqa].[none:Swimming:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{75D6CBFB-8DFD-4468-90EA-F01F207790EB}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
